@@ -1,0 +1,7 @@
+---
+spring:
+  application:
+    name: VerbClient
+  cloud:
+    config:
+      uri: http://localhost:8001

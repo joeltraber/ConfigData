@@ -1,0 +1,7 @@
+---
+spring:
+  application:
+    name: SentenceClient
+  cloud:
+    config:
+      uri: http://localhost:8001

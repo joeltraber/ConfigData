@@ -1,0 +1,4 @@
+---
+server:
+  port: 8022  
+words: reasonable,leaky,suspicious,ordinary,unlikely
