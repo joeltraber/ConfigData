@@ -2,3 +2,10 @@
 server:
   port: 8022  
 words: reasonable,leaky,suspicious,ordinary,unlikely
+
+---
+spring:
+  profiles: cold-adjective
+server:
+  port: 8021
+words: awesome

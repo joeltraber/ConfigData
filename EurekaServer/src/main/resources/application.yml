@@ -5,7 +5,8 @@ server:
   port: 8010  
 eureka:
   instance:
-    hostname: eurekahost 
+    hostname: eurekahost
+    instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${random.value}}
   client:
     registerWithEureka: false
     fetchRegistry: false
