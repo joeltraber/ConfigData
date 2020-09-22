@@ -1,2 +1,3 @@
 ---
-config-word: Irish
+config-words:
+  word: Irish
