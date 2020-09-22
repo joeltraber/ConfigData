@@ -1,7 +1,7 @@
 ---
 spring:
   application:
-    name: SpringConfigClient
+    name: spring-config-client
   
   cloud:
     config:
