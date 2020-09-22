@@ -2,8 +2,10 @@ package org.microservice.sentence.service;
 
 import org.microservice.sentence.domain.Word;
 
+import rx.Observable;
+
 public interface WordService {
 
-	Word getVerb();
-	Word getAdjective();
+	Observable<Word> getVerb();
+	Observable<Word> getAdjective();
 }
